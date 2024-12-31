@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "期末爬蟲"
+version = "0.1.0"
+description = ""
+authors = ["雷龍RL <f82621672@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.27.1"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
